@@ -1,4 +1,3 @@
-N= int(input("Enter the  value till which Fibonacci series will be generated :"))
 def fibb(N):
 	t1= 0
 	t2= 1
@@ -10,5 +9,3 @@ def fibb(N):
 		t2 += 1
 		t += 1
 	return fib
-
-print(fibb(N))
